@@ -68,6 +68,11 @@ header {
   flex-wrap: wrap;
 }
 
+.header-nav {
+  margin-top: 1rem;
+  text-align: center;
+}
+
 @media (max-width: 520px) {
   .header-controls {
     position: static;
