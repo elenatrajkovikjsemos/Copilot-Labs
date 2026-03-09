@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lab 0 - Setup</title>
+  <link rel="stylesheet" href="styles.css" />
+
+</head>
+<body>
+  <header>
+    <h1>Lab 0 - Setup</h1>
+    <div class="header-controls">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light/dark mode">🌙</button>
+      <nav><a href="index.html">← Back to Labs</a></nav>
+    </div>
+  </header>
+  <main>
+    <div class="panel">
+      <h2>Follow along using sample data with Microsoft 365 Copilot</h2>
+      <p>Throughout these labs, we'll be crafting prompts for Microsoft 365 Copilot that reference the following files:</p>
+      <ul>
+        <li><a href="https://go.microsoft.com/fwlink/?linkid=2269126">Promotion Plan for Chai Tea in Latin America.docx</a></li>
+        <li><a href="https://go.microsoft.com/fwlink/?linkid=2268826">Market Analysis Report for Mystic Spice Premium Chai Tea.docx</a></li>
+        <li><a href="https://go.microsoft.com/fwlink/?linkid=2268822">Contoso Chai Tea market trends 2023.xlsx</a></li>
+      </ul>
+      <p>To ensure that these files are accessible later on by Microsoft 365 Copilot, we'll first upload them to OneDrive.</p>
+
+      <h3>Uploading Files to OneDrive</h3>
+      <p>Follow the steps below to upload all files needed to <strong>OneDrive</strong>:</p>
+      <ol>
+        <li>Log into the virtual machine provided by your tenant provider.</li>
+        <li>Open a <strong>Microsoft Edge</strong> browser and go to <a href="https://onedrive.live.com/login/">https://onedrive.live.com/login/</a>. Enter the credentials provided to log in.</li>
+        <li>Select <strong>Your OneDrive is ready</strong>, then select <strong>Create or upload &gt; Files upload</strong>.</li>
+        <li>In <strong>File Explorer</strong>, select <strong>Downloads</strong> and find the files you just downloaded.</li>
+        <li>Select all needed files then select <strong>Open</strong>.</li>
+        <li>When the upload is complete, you should see <strong>Uploaded 3 items to Documents</strong> in the bottom center of the screen.</li>
+      </ol>
+
+      <h3>Referencing files</h3>
+      <p>When referencing files from Copilot, you might find that you can't find some files from the suggestions provided to you. This happens sometimes because certain experiences with Copilot only reference files from the Most Recently Used (MRU) list, while others let you browse OneDrive to find your file. Adding them to that list is as easy as opening them up in the appropriate Microsoft 365 app. Once they've been opened, they should appear in the MRU list.</p>
+
+      <aside class="note">
+        <strong>Important:</strong> Microsoft 365 Copilot will only work with files saved to OneDrive. If files are stored locally on your PC, you'll need to move them to OneDrive to activate Copilot.
+      </aside>
+
+      <p>As you progress, you'll have an opportunity to try out other prompts against these files and are encouraged to do so to explore and enhance your prompting skills.</p>
+    </div>
+  </main>
+  <footer>
+    <p>Created for Copilot Labs | Official Microsoft labs from Microsoft Learn | Elena Trajkovikj MCT</p>
+  </footer>
+  <script src="theme.js" defer></script>
+</body>
+</html>
