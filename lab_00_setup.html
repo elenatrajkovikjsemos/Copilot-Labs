@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lab 0 - Setup</title>
+  <title>Lab 0 - Copilot Setup & Access Overview</title>
   <link rel="icon" href="MCT.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="styles.css" />
 
 </head>
 <body>
   <header>
-    <h1>Lab 0 - Setup</h1>
+    <h1>Lab 0 - Copilot Setup & Access Overview</h1>
     <nav class="header-nav"><a href="index.html">← Back to Labs</a></nav>
     <div class="header-controls">
       <button class="theme-toggle" id="themeToggle" aria-label="Toggle light/dark mode">🌙</button>
@@ -18,34 +18,87 @@
   </header>
   <main>
     <div class="panel">
-      <h2>Follow along using sample data with Microsoft 365 Copilot</h2>
-      <p>Throughout these labs, we'll be crafting prompts for Microsoft 365 Copilot that reference the following files:</p>
-      <ul>
-        <li><a href="https://go.microsoft.com/fwlink/?linkid=2269126">Promotion Plan for Chai Tea in Latin America.docx</a></li>
-        <li><a href="https://go.microsoft.com/fwlink/?linkid=2268826">Market Analysis Report for Mystic Spice Premium Chai Tea.docx</a></li>
-        <li><a href="https://go.microsoft.com/fwlink/?linkid=2268822">Contoso Chai Tea market trends 2023.xlsx</a></li>
-      </ul>
-      <p>To ensure that these files are accessible later on by Microsoft 365 Copilot, we'll first upload them to OneDrive.</p>
+      <h2>Copilot Setup & Access Overview</h2>
+      <p>This section provides an overview of how to access Copilot in Microsoft 365 and how it connects to your work.</p>
 
-      <h3>Uploading Files to OneDrive</h3>
-      <p>Follow the steps below to upload all files needed to <strong>OneDrive</strong>:</p>
+      <h3>1. Login</h3>
+      <p>To use Copilot in Microsoft 365:</p>
       <ol>
-        <li>Log into the virtual machine provided by your tenant provider.</li>
-        <li>Open a <strong>Microsoft Edge</strong> browser and go to <a href="https://onedrive.live.com/login/">https://onedrive.live.com/login/</a>. Enter the credentials provided to log in.</li>
-        <li>Select <strong>Your OneDrive is ready</strong>, then select <strong>Create or upload &gt; Files upload</strong>.</li>
-        <li>In <strong>File Explorer</strong>, select <strong>Downloads</strong> and find the files you just downloaded.</li>
-        <li>Select all needed files then select <strong>Open</strong>.</li>
-        <li>When the upload is complete, you should see <strong>Uploaded 3 items to Documents</strong> in the bottom center of the screen.</li>
+        <li>Go to <a href="https://office.com">office.com</a></li>
+        <li>Sign in with your work or school account</li>
+        <li>Ensure you have a Microsoft 365 Copilot license assigned</li>
       </ol>
+      <p>Once signed in, Copilot becomes available across supported apps.</p>
 
-      <h3>Referencing files</h3>
-      <p>When referencing files from Copilot, you might find that you can't find some files from the suggestions provided to you. This happens sometimes because certain experiences with Copilot only reference files from the Most Recently Used (MRU) list, while others let you browse OneDrive to find your file. Adding them to that list is as easy as opening them up in the appropriate Microsoft 365 app. Once they've been opened, they should appear in the MRU list.</p>
+      <h3>2. Where you can access Copilot</h3>
+      <p>Copilot is integrated across Microsoft 365 — you can access it in multiple places depending on your task.</p>
 
-      <aside class="note">
-        <strong>Important:</strong> Microsoft 365 Copilot will only work with files saved to OneDrive. If files are stored locally on your PC, you'll need to move them to OneDrive to activate Copilot.
-      </aside>
+      <h4>In the browser (Copilot Chat)</h4>
+      <p>Accessible from the Microsoft 365 homepage. Use it to:</p>
+      <ul>
+        <li>ask questions and explore ideas</li>
+        <li>combine work data + web information</li>
+        <li>prepare before working in documents or presentations</li>
+      </ul>
 
-      <p>As you progress, you'll have an opportunity to try out other prompts against these files and are encouraged to do so to explore and enhance your prompting skills.</p>
+      <h4>Inside apps</h4>
+      <p>Copilot works directly where your work happens.</p>
+      <ul>
+        <li><strong>Word</strong><br />Ask Copilot → analyze and discuss the document<br />Edit with Copilot → rewrite, expand, improve content</li>
+        <li><strong>PowerPoint</strong><br />Create presentations from documents | Improve slides, add notes, refine messaging</li>
+        <li><strong>Excel</strong><br />Analyze data | Generate insights, summaries, formulas</li>
+        <li><strong>Outlook</strong><br />Summarize email threads | Draft replies | Identify key actions</li>
+        <li><strong>Teams</strong><br />Summarize chats and meetings | Generate meeting recaps | Help track decisions and follow-ups | Ask questions about conversations and shared content</li>
+      </ul>
+
+      <h4>Copilot Agents (simple/custom agents)</h4>
+      <p>Copilot can also be extended with agents:</p>
+      <ul>
+        <li>Built for specific topics or tasks</li>
+        <li>Can use your organization's documents as knowledge</li>
+        <li>Provide focused, consistent answers</li>
+      </ul>
+      <p>Examples: answering internal policy questions, supporting sales or customer inquiries, helping with onboarding or training content.</p>
+
+      <h3>3. How Copilot connects to your data</h3>
+      <p>Copilot is powered by <strong>Microsoft Graph</strong>. Microsoft Graph connects:</p>
+      <ul>
+        <li>Emails (Outlook)</li>
+        <li>Files (Word, Excel, PowerPoint)</li>
+        <li>Meetings and chats (Teams)</li>
+        <li>Calendar information</li>
+      </ul>
+      <p>This allows Copilot to understand your work context and provide relevant responses.</p>
+
+      <h3>4. Connection to OneDrive and SharePoint</h3>
+      <p>Your files are stored in:</p>
+      <ul>
+        <li><strong>OneDrive</strong> → personal work files</li>
+        <li><strong>SharePoint</strong> → team and shared files</li>
+      </ul>
+      <p>Copilot uses these locations as its data source. This means:</p>
+      <ul>
+        <li>it works with your actual documents</li>
+        <li>it reflects what you and your team are working on</li>
+        <li>results depend on access and permissions</li>
+      </ul>
+
+      <h3>5. Work and Web grounding</h3>
+      <p>Copilot can use two types of information:</p>
+      <ul>
+        <li><strong>Work:</strong> your files, emails and conversations, internal context</li>
+        <li><strong>Web:</strong> external information, market trends, general knowledge</li>
+      </ul>
+
+      <h3>6. Simple way to understand Copilot</h3>
+      <ul>
+        <li><strong>Inside apps</strong> → create and edit content</li>
+        <li><strong>In chat</strong> → explore, analyze, and decide</li>
+        <li><strong>With Graph</strong> → uses your work context</li>
+        <li><strong>With Web</strong> → adds external knowledge</li>
+      </ul>
+
+      <p>Now you're ready to use Copilot across the labs that follow.</p>
     </div>
   </main>
   <footer>
