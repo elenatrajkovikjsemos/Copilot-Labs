@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lab 6 - Copilot Agents </title>
+  <link rel="icon" href="MCT.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+
+</head>
+<body>
+  <header>
+    <h1>Lab 6 - Copilot Agents </h1>
+    <nav class="header-nav"><a href="index.html">← Back to Labs</a></nav>
+    <div class="header-controls">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light/dark mode">🌙</button>
+    </div>
+  </header>
+  <main>
+    <div class="panel">
+      <h2>🧩 Copilot Agents Exercise – Specialized Assistants</h2>
+
+      <h3>Scenario</h3>
+      <p>You are working in a sales and strategy team and need support for:</p>
+      <ul>
+        <li>analyzing internal sales data</li>
+        <li>researching market trends and positioning</li>
+      </ul>
+      <p>Instead of writing prompts from scratch, you will use <strong>specialized agents</strong> to support your work.</p>
+      <p>Agents are specialized AI assistants that help automate tasks, analyze data, and provide structured insights.</p>
+
+      
+
+      <h3>How to use Copilot Agents</h3>
+      <h4>🤖 Use prebuilt agents</h4>
+      <p>Use this to:</p>
+      <ul>
+        <li>work with specialized assistants (Analyst, Researcher)</li>
+        <li>get structured, role-based answers</li>
+      </ul>
+
+      
+      <h4>🛠️ Create your own agent</h4>
+      <p>Use this to:</p>
+      <ul>
+        <li>define a specific role and behavior</li>
+        <li>reuse the same logic across scenarios</li>
+        <li>enrich it with knowledge sources</li>
+      </ul>
+      <p>👉 You describe the agent → add instructions → add knowledge → test it</p>
+
+      
+      <h3>🔹 Part 1: Use built-in agents</h3>
+
+      <h4>✅ Analyst Agent</h4>
+      <p><strong>What it does</strong></p>
+      <p>The Analyst agent helps you:</p>
+      <ul>
+        <li>analyze datasets (like Excel)</li>
+        <li>identify trends and anomalies</li>
+        <li>summarize performance and metrics</li>
+      </ul>
+      <p>👉 Use your Excel file: <em>Contoso Chai Tea market trends</em></p>
+
+      
+      <h4>Prompt 1</h4>
+      <pre><code>Analyze this dataset and identify key sales trends across the year, including growth patterns and seasonal changes.</code></pre>
+
+      
+      <h4>Prompt 2</h4>
+      <pre><code>Identify any anomalies or unusual values in the data and explain what might be causing them.</code></pre>
+
+      
+      <h4>✅ Researcher Agent</h4>
+      <p><strong>What it does</strong></p>
+      <p>The Researcher agent helps you:</p>
+      <ul>
+        <li>gather insights from internal and external sources</li>
+        <li>analyze market trends</li>
+        <li>produce structured research output</li>
+      </ul>
+
+      
+      <h4>Prompt 3</h4>
+      <pre><code>Create a short research report on current trends in software sales for business clients, including key strategies, challenges, and future outlook.</code></pre>
+
+      
+      <h3>🔹 Part 2: Create your own agent (Agent Builder)</h3>
+      <p>Agent Builder allows you to create an agent directly in Copilot using natural language, without coding.</p>
+
+      
+      <h4>Step 1: Describe your agent</h4>
+      <p>Example description:</p>
+      <pre><code>A Sales Strategy Assistant that helps analyze sales performance, interpret trends, and suggest actions to improve business results.</code></pre>
+
+      
+      <h4>Step 2: Define instructions</h4>
+      <p>Example instructions:</p>
+      <pre><code>Provide clear and structured analysis of sales data.
+Highlight key trends, risks, and opportunities.
+Give concise and actionable recommendations.
+Use a professional and business-focused tone.</code></pre>
+
+      
+      <h4>Step 3: Add knowledge</h4>
+      <p>Enhance your agent by adding knowledge sources such as:</p>
+      <ul>
+        <li>SharePoint documents (internal sales materials, reports)</li>
+        <li>OneDrive files</li>
+        <li>Public websites with market insights</li>
+      </ul>
+
+      
+      <h4>Step 4: Test your agent</h4>
+      <p>Example prompts:</p>
+      <pre><code>Analyze our sales data and provide the most important insights.</code></pre>
+      <pre><code>Based on current market trends, what should be our top sales priorities?</code></pre>
+    </div>
+  </main>
+  <footer>
+    <p>Created for Copilot Labs | Official Microsoft labs from Microsoft Learn | Elena Trajkovikj MCT</p>
+  </footer>
+  <script src="theme.js" defer></script>
+</body>
+</html>

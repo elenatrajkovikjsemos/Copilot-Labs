@@ -134,7 +134,9 @@ main {
   border-radius: var(--radius);
   padding: 1.6rem 1.7rem;
   box-shadow: var(--shadow);
-  overflow-x: auto;
+  overflow-x: visible;
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
 }
 
 p {
@@ -158,6 +160,23 @@ aside.note {
   padding: 1rem 1.25rem;
   border-left: 4px solid var(--accent2);
   background: rgba(60, 233, 198, 0.12);
+}
+
+pre {
+  margin: 1rem 0;
+  padding: 1rem 1.1rem;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 14px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-x: hidden;
+}
+
+code {
+  color: inherit;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  white-space: pre-wrap;
+  word-break: break-word;
 }
 
 footer {
